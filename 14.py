@@ -1,6 +1,6 @@
 from math import *
 
-def f14(n):
+def f4(n):
     if n == 0:
         return 10
     if n == 1:
