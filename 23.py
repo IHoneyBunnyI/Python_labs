@@ -16,6 +16,8 @@ def f23(lis):
     for i in range(len(b)):
         b[i][1] = b[i][1].replace('%', '')
         b[i][1] = str(float(b[i][1])/ 100)
+        if len(b[i][1]) == 3:
+            b[i][1] = b[i][1] + '0'
     for i in range(len(b)):
         b[i][2] = b[i][2].replace('-', '.')
     for i in range(len(b)):
